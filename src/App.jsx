@@ -3,10 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-import NavbarView from "./NavbarView";
+import Layout from "./Layout";
 
 function App() {
-  return <NavbarView />;
+  return <Layout />;
 }
 
 export default App;
