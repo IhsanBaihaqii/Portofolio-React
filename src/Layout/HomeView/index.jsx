@@ -1,5 +1,9 @@
 import heroImage from "../../assets/san1.jpg";
 
+// Font Awesome Icons
+// https://react-icons.github.io/react-icons/icons/fa/
+import { FaInstagram, FaWhatsapp, FaTiktok, FaGithub } from "react-icons/fa";
+
 function HomeView() {
   return (
     <section
@@ -59,11 +63,13 @@ function HomeView() {
         {/* Social Icons */}
         <div className="flex gap-4">
           {[
-            { href: "https://wa.me/6285765178178", label: "WhatsApp" },
-            { href: "https://instagram.com/yourusername", label: "Instagram" },
-            { href: "https://tiktok.com/@yourusername", label: "TikTok" },
-            { href: "https://github.com/yourusername", label: "GitHub" },
-            { href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
+            { href: "https://wa.me/6285765178178", label: <FaWhatsapp /> },
+            {
+              href: "https://instagram.com/ihsanbaihaqii",
+              label: <FaInstagram />,
+            },
+            { href: "https://tiktok.com/@saanmodz", label: <FaTiktok /> },
+            { href: "https://github.com/ihsanbaihaqii", label: <FaGithub /> },
           ].map((item) => (
             <a
               key={item.label}
@@ -77,7 +83,7 @@ function HomeView() {
                 transition
               "
             >
-              {item.label[0]}
+              {item.label}
             </a>
           ))}
         </div>
