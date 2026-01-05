@@ -12,6 +12,16 @@ function NavbarView() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const listNavbar = [
+    "Home",
+    "About",
+    "Skills",
+    "Projects",
+    "Education",
+    "Certifications",
+    "Contact",
+  ];
+
   return (
     <nav
       className={`
@@ -31,15 +41,7 @@ function NavbarView() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center space-x-8">
-        {[
-          "Home",
-          "About",
-          "Skills",
-          "Projects",
-          "Education",
-          "Certifications",
-          "Contact",
-        ].map((item) => (
+        {listNavbar.map((item) => (
           <li key={item}>
             <a
               href={`#${item.toLowerCase()}`}
@@ -69,31 +71,26 @@ function NavbarView() {
       </button>
 
       {/* Mobile Menu */}
-      {open && (
-        <div className="absolute top-full left-0 w-full bg-[#0a0a1a] md:hidden">
-          <ul className="flex flex-col items-center py-6 space-y-6">
-            {[
-              "Home",
-              "About",
-              "Skills",
-              "Projects",
-              "Education",
-              "Certifications",
-              "Contact",
-            ].map((item) => (
-              <li key={item}>
-                <a
-                  href={`#${item.toLowerCase()}`}
-                  onClick={() => setOpen(false)}
-                  className="text-white text-lg font-medium"
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div
+        className={`absolute top-full ${
+          open ? "left-0 bg-[#000000aa]" : "left-[-100%]"
+        } w-full h-screen md:hidden transition-all duration-200 ease`}
+        onClick={() => setOpen(!open)}
+      >
+        <ul className="flex flex-col w-60 h-screen  items-left p-6 space-y-6 bg-[#0a0a1a]">
+          {listNavbar.map((item) => (
+            <li key={item}>
+              <a
+                href={`#${item.toLowerCase()}`}
+                onClick={() => setOpen(false)}
+                className="text-white text-lg font-medium"
+              >
+                {item}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }
