@@ -4,6 +4,8 @@ import heroImage from "../../assets/san1.jpg";
 // https://react-icons.github.io/react-icons/icons/fa/
 import { FaInstagram, FaWhatsapp, FaTiktok, FaGithub } from "react-icons/fa";
 
+import Typewriter from "./TypeWriter";
+
 function HomeView() {
   return (
     <section
@@ -24,7 +26,16 @@ function HomeView() {
 
         <div className="text-xl md:text-2xl mb-6 min-h-[60px] text-white">
           I'm passionate about{" "}
-          <span className="text-cyan-400 font-bold">Technology & Digital</span>
+          <span className="text-cyan-400 font-bold">
+            <Typewriter
+              words={[
+                "Web Development",
+                "Digital Marketing",
+                "UI/UX Design",
+                "Data Science",
+              ]}
+            />
+          </span>
         </div>
 
         <p className="text-lg text-white/80 mb-8">
