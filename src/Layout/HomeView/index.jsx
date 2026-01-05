@@ -1,4 +1,4 @@
-import heroImage from "../../assets/san1.jpg";
+import myProfile from "../../assets/san1.jpg";
 
 // Font Awesome Icons
 // https://react-icons.github.io/react-icons/icons/fa/
@@ -111,7 +111,7 @@ function HomeView() {
         "
       >
         <img
-          src={heroImage}
+          src={myProfile}
           alt="Ihsan Baihaqi"
           className="
             w-[380px] h-[380px] rounded-full
