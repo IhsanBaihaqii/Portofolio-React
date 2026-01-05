@@ -40,7 +40,7 @@ function NavbarView() {
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex items-center space-x-8">
+      <ul className="hidden lg:flex items-center space-x-8">
         {listNavbar.map((item) => (
           <li key={item}>
             <a
@@ -63,7 +63,7 @@ function NavbarView() {
       {/* Hamburger */}
       <button
         onClick={() => setOpen(!open)}
-        className="md:hidden flex flex-col space-y-1"
+        className="lg:hidden flex flex-col space-y-1"
       >
         <span className="w-6 h-[2px] bg-white"></span>
         <span className="w-6 h-[2px] bg-white"></span>
@@ -74,7 +74,7 @@ function NavbarView() {
       <div
         className={`absolute top-full ${
           open ? "left-0 bg-[#000000aa]" : "left-[-100%]"
-        } w-full h-screen md:hidden transition-all duration-200 ease`}
+        } w-full h-screen lg:hidden transition-all duration-200 ease`}
         onClick={() => setOpen(!open)}
       >
         <ul className="flex flex-col w-60 h-screen items-left p-6 space-y-6 bg-[#0a0a1a]">

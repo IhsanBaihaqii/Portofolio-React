@@ -92,7 +92,7 @@ function HomeView() {
       {/* Image */}
       <div
         className="
-          hidden md:flex absolute right-[10%]
+          hidden lg:flex absolute right-[10%]
           w-[400px] h-[400px] rounded-full
           bg-gradient-to-br from-cyan-400 to-purple-500
           items-center justify-center
