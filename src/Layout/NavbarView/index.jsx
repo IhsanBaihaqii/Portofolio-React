@@ -77,13 +77,18 @@ function NavbarView() {
         } w-full h-screen md:hidden transition-all duration-200 ease`}
         onClick={() => setOpen(!open)}
       >
-        <ul className="flex flex-col w-60 h-screen  items-left p-6 space-y-6 bg-[#0a0a1a]">
+        <ul className="flex flex-col w-60 h-screen items-left p-6 space-y-6 bg-[#0a0a1a]">
           {listNavbar.map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}
                 onClick={() => setOpen(false)}
-                className="text-white text-lg font-medium"
+                className="relative text-white text-lg font-medium 
+                after:absolute after:left-0 after:bottom-0
+                after:h-[2px] after:w-0
+                after:bg-gradient-to-r after:from-cyan-400 after:to-purple-500
+                after:transition-all after:duration-300
+                hover:after:w-full"
               >
                 {item}
               </a>
