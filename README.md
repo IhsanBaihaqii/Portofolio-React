@@ -1,5 +1,19 @@
 # React + Vite
 
+## How to Run
+
+```bash
+#download repositories git
+git clone https://github.com/IhsanBaihaqii/Portofolio-React.git
+cd Portofolio-React
+
+#install
+npm install
+
+#run react
+npm run dev
+```
+
 ## Library
 
 - [React Font Awesome](https://react-icons.github.io/react-icons/icons/fa/)
