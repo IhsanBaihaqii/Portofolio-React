@@ -1,6 +1,7 @@
 import NavbarView from "./NavbarView";
 import HomeView from "./HomeView";
 import AboutMeView from "./AboutMeView";
+import SkillView from "./SkillView";
 
 function MainLayout() {
   return (
@@ -8,6 +9,7 @@ function MainLayout() {
       <NavbarView />
       <HomeView />
       <AboutMeView />
+      <SkillView />
     </div>
   );
 }
