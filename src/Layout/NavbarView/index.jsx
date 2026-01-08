@@ -73,8 +73,9 @@ function NavbarView() {
       {/* Mobile Menu */}
       <div
         className={`absolute top-full ${
-          open ? "left-0 bg-[#000000aa]" : "left-[-100%]"
-        } w-full h-screen lg:hidden transition-all duration-200 ease`}
+          open ? "right-0 bg-[#000000aa]" : "right-[-100%]"
+        } w-full h-screen lg:hidden transition-all duration-200 ease
+        flex justify-end`}
         onClick={() => setOpen(!open)}
       >
         <ul className="flex flex-col w-60 h-screen items-left p-6 space-y-6 bg-[#0a0a1a]">
