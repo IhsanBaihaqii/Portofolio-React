@@ -12,7 +12,7 @@ function AboutMeView() {
     >
       <div className="w-full">
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-16 pt-20">
           About <span className="text-cyan-400">Me</span>
         </h2>
 
@@ -50,7 +50,7 @@ function AboutMeView() {
               Science
             </p>
 
-            <p className="text-white leading-relaxed mb-6">
+            <p className="text-white leading-relaxed mb-6 text-justify lg:text-left">
               Saya Ihsan Baihaqi, lahir di Saentis pada 04 Maret 2006. Saat ini
               saya berkuliah di{" "}
               <span className="text-cyan-400 font-medium">
@@ -63,7 +63,7 @@ function AboutMeView() {
             </p>
 
             {/* Social Icons */}
-            <div className="flex justify-center lg:justify-start gap-4">
+            <div className="flex justify-center lg:justify-start gap-4 mb-4">
               {[
                 {
                   href: "https://wa.me/6285765178178",
