@@ -9,7 +9,7 @@ import Typewriter from "./TypeWriter";
 function HomeView() {
   return (
     <section
-      id="hero"
+      id="home"
       className="
         min-h-screen flex items-center relative overflow-hidden
         px-6 md:px-[10%]
