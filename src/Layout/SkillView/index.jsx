@@ -8,9 +8,7 @@ import {
   FaFigma,
   FaPython,
   FaJava,
-  FaDatabase,
   FaDocker,
-  FaAws,
   FaGithub,
   FaNpm,
   FaBootstrap,
@@ -74,7 +72,7 @@ function SkillView() {
       {/* Title */}
       <div className="text-center mb-16 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          Skills & <span className="text-cyan-400">Technologies</span>
+          Skills & <span className="text-cyan-400">Abilities</span>
         </h2>
         <p className="text-lg text-white/60 max-w-2xl mx-auto">
           Keahlian dan kemampuan yang saya miliki
