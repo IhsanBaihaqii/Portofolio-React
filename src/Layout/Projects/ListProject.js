@@ -4,18 +4,18 @@ const ListProject = [
     description: "Asistant AI yang mampu membantu anda (Demo)",
     image:
       "https://raw.githubusercontent.com/IhsanBaihaqii/itshanApp/refs/heads/main/image.png",
-    link: "https://itshanapp.com", // link project
+    link: "https://IhsanBaihaqii.github.io/itshanApp", // link project
     github: "https://github.com/IhsanBaihaqii/itshanApp", // link github
-    tags: ["HTML", "CSS", "JavaScript", "AI", "React", "Node.js"],
+    tags: ["HTML", "CSS", "JavaScript", "AI"],
   },
   {
     title: "Jam Analog",
     description: "Jam Analog Dengan Foto Beliau Yang Sedang Menunjuk",
     image:
-      "https://via.placeholder.com/600x400/0a0a1a/00ffff?text=Jam+Analog+Project",
-    link: "https://jam-analog-demo.com",
+      "https://raw.githubusercontent.com/IhsanBaihaqii/Jam-Analog/refs/heads/main/view.png",
+    link: "https://IhsanBaihaqii.github.io/Jam-Analog",
     github: "https://github.com/IhsanBaihaqii/Jam-Analog",
-    tags: ["HTML", "CSS", "JavaScript", "Canvas", "UI Design"],
+    tags: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Kopi Kenangan Senja",
