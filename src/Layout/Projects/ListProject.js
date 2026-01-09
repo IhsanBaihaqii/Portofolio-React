@@ -22,9 +22,9 @@ const ListProject = [
     description: "Website Kopi Kenangan Senja",
     image:
       "https://raw.githubusercontent.com/IhsanBaihaqii/Kenangan-Senja/refs/heads/main/screenshoot/hasil/Screenshot%202025-06-24%20104133.png",
-    link: "https://kopi-kenangan-senja.com",
+    link: "https://IhsanBaihaqii.github.io/Kenangan-Senja",
     github: "https://github.com/IhsanBaihaqii/Kenangan-Senja",
-    tags: ["HTML", "CSS", "JavaScript", "Alpine JS", "Bootstrap", "Responsive"],
+    tags: ["HTML", "CSS", "JavaScript", "Alpine JS"],
   },
   {
     title: "E-Commerce Store",
