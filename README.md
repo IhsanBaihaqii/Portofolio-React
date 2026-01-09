@@ -17,6 +17,7 @@ npm run dev
 ## Library
 
 - [React Font Awesome](https://react-icons.github.io/react-icons/icons/fa/)
+- [React Simple Icons](https://react-icons.github.io/react-icons/icons/si/)
 - [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
 
 ## React Compiler
