@@ -1,5 +1,5 @@
 import myProfile from "../../assets/san1.jpg";
-import { FaInstagram, FaWhatsapp, FaGithub, FaTiktok } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 function AboutMeView() {
   return (
@@ -63,23 +63,22 @@ function AboutMeView() {
             </p>
 
             {/* Social Icons */}
-            <div className="flex justify-center lg:justify-start gap-4 mb-4">
+            <div className="flex flex-col gap-4 mb-4">
               {[
                 {
                   href: "https://wa.me/6285765178178",
-                  icon: <FaWhatsapp />,
+                  icon: <FaWhatsapp className="text-xl" />,
+                  text: "0857-6519-8178",
                 },
                 {
-                  href: "https://instagram.com/ihsanbaihaqii",
-                  icon: <FaInstagram />,
+                  href: "mailto:ihsan104209@gmail.com",
+                  icon: <FaEnvelope className="text-xl" />,
+                  text: "ihsan104209@gmail.com",
                 },
                 {
-                  href: "https://tiktok.com/@saanmodz",
-                  icon: <FaTiktok />,
-                },
-                {
-                  href: "https://github.com/ihsanbaihaqii",
-                  icon: <FaGithub />,
+                  href: "https://maps.app.goo.gl/UUxPXfY5PErfKBCB7",
+                  icon: <FaMapMarkedAlt className="text-xl" />,
+                  text: "Dusun I, Musyawarah A - Saentis, Kec. Percut Sei Tuan",
                 },
               ].map((item, i) => (
                 <a
@@ -88,14 +87,20 @@ function AboutMeView() {
                   target="_blank"
                   rel="noreferrer"
                   className="
-                    w-10 h-10 flex items-center justify-center
-                    rounded-full
-                    bg-white/10 text-white
-                    hover:bg-cyan-400 hover:text-slate-900
-                    transition
-                  "
+        flex items-center gap-4
+        px-4 py-3
+        rounded-xl
+        bg-white/10 text-white
+        hover:bg-cyan-400 hover:text-slate-900
+        transition-all duration-300
+      "
                 >
-                  {item.icon}
+                  <span className="w-10 h-10 flex items-center justify-center rounded-full bg-white/20">
+                    {item.icon}
+                  </span>
+                  <span className="text-sm md:text-base break-all">
+                    {item.text}
+                  </span>
                 </a>
               ))}
             </div>
