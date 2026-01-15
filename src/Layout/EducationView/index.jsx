@@ -140,7 +140,7 @@ function EducationBox({ education }) {
             src={education.image}
             alt={education.title}
             className="
-    w-28
+    h-full
     md:w-32
     lg:w-36
     object-contain
