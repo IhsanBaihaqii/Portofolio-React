@@ -1,4 +1,4 @@
-const ListProject = [
+export default [
   {
     title: "itshanApp",
     description: "Asistant AI yang mampu membantu anda (Demo)",
@@ -27,5 +27,3 @@ const ListProject = [
     tags: ["HTML", "CSS", "JavaScript", "Alpine JS"],
   },
 ];
-
-export default ListProject;
