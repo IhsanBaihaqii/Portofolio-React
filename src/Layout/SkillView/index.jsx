@@ -80,10 +80,9 @@ function SkillView() {
       </div>
 
       {/* Skills Container */}
-      <div className="max-w-6xl mx-auto relative z-10">
-        {/* Frontend Skills */}
+      <div className="max-w-6xl relative z-10">
         <div className="mb-12">
-          <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-10 gap-6">
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-10 gap-1">
             {skills.map((skill) => (
               <SkillItem key={skill.name} skill={skill} />
             ))}
@@ -100,7 +99,7 @@ function SkillItem({ skill }) {
     <div className="group relative flex flex-col items-center">
       <div
         className="
-        w-20 h-20 flex items-center justify-center rounded-xl
+        w-full h-19 flex items-center justify-center rounded-xl
         bg-white/5 backdrop-blur-sm border border-white/10
         group-hover:border-cyan-400/50 group-hover:bg-white/10
         transition-all duration-300 cursor-pointer
@@ -118,7 +117,7 @@ function SkillItem({ skill }) {
       {/* Skill Name - Hidden by default, shown on hover */}
       <span
         className="
-        absolute -bottom-8 opacity-0 group-hover:opacity-100
+        absolute bottom-8 opacity-0 group-hover:opacity-100
         transition-all duration-300 transform group-hover:-translate-y-1
         text-white font-medium text-sm whitespace-nowrap
         bg-black/80 backdrop-blur-sm px-3 py-1 rounded-md
