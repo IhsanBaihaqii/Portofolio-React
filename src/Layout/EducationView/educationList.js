@@ -1,0 +1,38 @@
+export default [
+  {
+    title: "SD NEGERI 104209 Saentis",
+    degree: "Sekolah Dasar",
+    year: "2012-2018",
+    status: "Completed",
+    image: "/education/sd.png",
+    link: "#",
+    color: "from-blue-500 to-cyan-400",
+  },
+  {
+    title: "SMP NEGERI 3 Percut Seituan",
+    degree: "Sekolah Menengah Pertama",
+    year: "2018-2021",
+    status: "Completed",
+    image: "/education/smp.png",
+    link: "https://smpnegeri3percut.wordpress.com/",
+    color: "from-green-500 to-emerald-400",
+  },
+  {
+    title: "SMK NEGERI 1 Percut Seituan",
+    degree: "Elektronika Industri",
+    year: "2021-2024",
+    status: "Completed",
+    image: "/education/smkn1.png",
+    link: "https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/ff4eb1b7-a656-4cb6-8e81-ee627bac2216",
+    color: "from-purple-500 to-pink-400",
+  },
+  {
+    title: "Politeknik Ganesha Medan",
+    degree: "Manajemen Informatika",
+    year: "2024",
+    status: "Mahasiswa",
+    image: "/education/polgan.png",
+    link: "https://polgan.ac.id/",
+    color: "from-orange-500 to-yellow-400",
+  },
+];
