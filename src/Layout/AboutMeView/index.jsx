@@ -87,13 +87,13 @@ function AboutMeView() {
                   target="_blank"
                   rel="noreferrer"
                   className="
-        flex items-center gap-4
-        px-4 py-3
-        rounded-xl
-        bg-white/10 text-white
-        hover:bg-cyan-400 hover:text-slate-900
-        transition-all duration-300
-      "
+                    flex items-center gap-4
+                    px-4 py-3
+                    rounded-xl
+                    bg-white/10 text-white
+                    hover:bg-cyan-400 hover:text-slate-900
+                    transition-all duration-300
+                  "
                 >
                   <span className="w-10 h-10 flex items-center justify-center rounded-full bg-white/20">
                     {item.icon}
