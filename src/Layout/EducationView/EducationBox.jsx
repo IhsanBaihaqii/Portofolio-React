@@ -16,73 +16,73 @@ function EducationBox({ education }) {
     >
       <div
         className="
-    flex
-    flex-col
-    md:flex-row
-    h-full
-    rounded-xl
-    bg-white/5
-    backdrop-blur-sm
-    border
-    border-white/10
-    overflow-hidden
-    transition-all
-    duration-300
-    hover:border-cyan-400/40
-    hover:shadow-xl
-    hover:shadow-cyan-400/10
-  "
+            flex
+            flex-col
+            md:flex-row
+            h-full
+            rounded-xl
+            bg-white/5
+            backdrop-blur-sm
+            border
+            border-white/10
+            overflow-hidden
+            transition-all
+            duration-300
+            hover:border-cyan-400/40
+            hover:shadow-xl
+            hover:shadow-cyan-400/10
+        "
       >
         {/* Image Section - Fixed height on mobile, flexible on desktop */}
         <div
           className="
-    w-full
-    md:w-44
-    lg:w-48
-    h-44
-    md:h-auto
-    flex
-    items-center
-    justify-center
-    bg-gradient-to-br
-    from-white/10
-    to-white/5
-  "
+            w-full
+            md:w-44
+            lg:w-48
+            h-44
+            md:h-auto
+            flex
+            items-center
+            justify-center
+            bg-gradient-to-br
+            from-white/10
+            to-white/5
+        "
         >
           <img
             src={education.image}
             alt={education.title}
             className="
-    h-full
-    md:w-32
-    lg:w-36
-    object-contain
-    transition-transform
-    duration-500
-    group-hover:scale-110
-  "
+                h-full
+                md:w-32
+                lg:w-36
+                object-contain
+                transition-transform
+                duration-500
+                group-hover:scale-110
+            "
           />
         </div>
 
         {/* Content Section */}
         <div
           className="
-    flex-1
-    p-5
-    flex
-    flex-col
-    justify-center
-    text-left
-  "
+            flex-1
+            p-5
+            flex
+            flex-col
+            justify-center
+            text-left
+        "
         >
           <h3
             className="
-  text-xl
-  lg:text-2xl
-  font-bold
-  text-white
-  group-hover:text-cyan-300
-"
+                text-xl
+                lg:text-2xl
+                font-bold
+                text-white
+                group-hover:text-cyan-300
+            "
           >
             {education.title}
           </h3>

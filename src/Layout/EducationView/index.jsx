@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaQuoteLeft } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 
 import educationList from "./educationList";
 import EducationBox from "./EducationBox";
@@ -32,12 +32,12 @@ function EducationView() {
       <div className="relative z-10">
         <div
           className="
-  grid
-  grid-cols-1
-  lg:grid-cols-2
-  gap-6
-  items-stretch
-"
+            grid
+            grid-cols-1
+            lg:grid-cols-2
+            gap-6
+            items-stretch
+          "
         >
           {educationList.map((edu, index) => (
             <EducationBox key={index} education={edu} />
