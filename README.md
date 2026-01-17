@@ -20,6 +20,10 @@ npm run dev
 - [React Simple Icons](https://react-icons.github.io/react-icons/icons/si/)
 - [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
 
+## Tampilan  
+
+[Lihat Demo](https://ihsan-baihaqi.vercel.app/)  
+
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
