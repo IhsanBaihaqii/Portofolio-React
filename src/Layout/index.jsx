@@ -4,6 +4,7 @@ import AboutMeView from "./AboutMeView";
 import SkillView from "./SkillView";
 import ProjectView from "./ProjectView";
 import EducationView from "./EducationView";
+import CertificateView from "./CertificateView";
 
 function MainLayout() {
   return (
@@ -14,6 +15,7 @@ function MainLayout() {
       <SkillView />
       <ProjectView />
       <EducationView />
+      <CertificateView />
     </div>
   );
 }
