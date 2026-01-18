@@ -86,7 +86,7 @@ function CertificateView() {
       {/* Title */}
       <div className="text-center mb-12 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          My <span className="text-cyan-400">Certificates</span>
+          Certificates <span className="text-cyan-400">& Training</span>
         </h2>
         <p className="text-lg text-white/60 max-w-2xl mx-auto">
           Semua sertifikat yang telah saya peroleh sepanjang perjalanan belajar

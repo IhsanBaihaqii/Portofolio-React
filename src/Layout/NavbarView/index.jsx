@@ -20,7 +20,7 @@ function NavbarView() {
     "Skills",
     "Projects",
     "Education",
-    "Certifications",
+    "Certificates",
     "Contact",
   ];
 
