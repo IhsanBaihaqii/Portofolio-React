@@ -13,7 +13,7 @@ function MainLayout() {
       <AboutMeView />
       <SkillView />
       <ProjectView />
-      <EducationView></EducationView>
+      <EducationView />
     </div>
   );
 }
