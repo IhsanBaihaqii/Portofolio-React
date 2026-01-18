@@ -3,7 +3,7 @@ function CertificateCard({ certificate }) {
   return (
     <div className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden hover:border-cyan-400/30 transition-all duration-300 hover:transform hover:scale-[1.02]">
       {/* certificate Image */}
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-68 overflow-hidden">
         <img
           src={certificate.image}
           alt={certificate.title}
