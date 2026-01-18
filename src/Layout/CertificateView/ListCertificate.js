@@ -20,4 +20,11 @@ export default [
       "https://api2.sololearn.com/v2/certificates/CC-CC138JHG/image/png?t=638843461624385220",
     tahun: "1 Juni 2025",
   },
+  {
+    title: "Introduction HTML",
+    description: "Solo Learn | Introduction HTML",
+    image:
+      "https://api2.sololearn.com/v2/certificates/CC-CC138JHG/image/png?t=638843461624385220",
+    tahun: "7 Juni 2025",
+  },
 ];
