@@ -13,4 +13,11 @@ export default [
       "https://api2.sololearn.com/v2/certificates/CC-QESVGTAL/image/png?t=638851371745931050",
     tahun: "10 Juni 2025",
   },
+  {
+    title: "Introduction C++",
+    description: "Solo Learn | Introduction C++",
+    image:
+      "https://api2.sololearn.com/v2/certificates/CC-CC138JHG/image/png?t=638843461624385220",
+    tahun: "1 Juni 2025",
+  },
 ];
