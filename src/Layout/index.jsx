@@ -16,6 +16,11 @@ function MainLayout() {
       <ProjectView />
       <EducationView />
       <CertificateView />
+      <footer className="text-center text-white py-4 bg-[#05050d]">
+        <p>
+          &copy; {new Date().getFullYear()} Ihsan Baihaqi. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
