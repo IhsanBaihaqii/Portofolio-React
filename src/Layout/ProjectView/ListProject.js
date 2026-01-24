@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Ramadhan Kareem",
+    description:
+      "HTML, CSS, dan JavaScript Lirik lagu Ramadhan Kareem dengan beberapa animasi",
+    image:
+      "https://raw.githubusercontent.com/saanmodz/ramadhan-kareem/refs/heads/main/ramadhan-kareem.png",
+    link: "https://saanmodz.github.io/ramadhan-kareem/", // link project
+    github: "https://github.com/saanmodz/ramadhan-kareem", // link github
+    tags: ["HTML", "CSS", "JavaScript", "Lirik Lagu"],
+  },
+  {
     title: "itshanApp",
     description: "Asistant AI yang mampu membantu anda (Demo)",
     image:
